@@ -70,7 +70,7 @@ dotnet run
 ```
 {
   "id": 1,
-  "serviceName": "ЯгдексПлюс",
+  "serviceName": "ЯндексПлюс",
   "monthlyCost": 299,
   "startDate": "2024-10-01",
   "nextPaymentDate": "2024-11-01",
