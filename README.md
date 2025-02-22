@@ -57,6 +57,7 @@ dotnet run
 1.**Добавление новой подписки (POST/api/subscription)**
 
 **Тело запроса JSON**
+
 ```
 {
   "serviceName": "ЯндексПлюс",
@@ -66,7 +67,9 @@ dotnet run
   "isActive": true
 }
 ```
+
 **Ответ**
+
 ```
 {
   "id": 1,
@@ -79,7 +82,9 @@ dotnet run
 ```
 
 2. **Получение списка подписок (GET /api/subscription)**
+
 **Ответ**
+
 ```
 [
   {
@@ -93,7 +98,9 @@ dotnet run
 ]
 ```
 3.**Обновление подписки (PUT /api/subscription/1)**
+
 **Тело запроса JSON**
+
 ```
 {
   "serviceName": "Spotify",
@@ -103,7 +110,9 @@ dotnet run
   "isActive": true
 }
 ```
+
 **Ответ**
+
 ```
 204 No Content
 ```
@@ -111,12 +120,15 @@ dotnet run
 4. **Удаление подписки (DELETE /api/subscription/1)**
 
 **Ответ**
+
 ```
 204 No Content
 ```
 
 5. **Получение предстоящих платежей (GET /api/subscription/Предстоящие_Платежи)**
+
 **Ответ**
+
 ```
 [
   {
@@ -132,6 +144,7 @@ dotnet run
 6. **Получение общих расходов за период (GET /api/subscription/расходы_за_период?startDate=2024-10-01&endDate=2024-10-31)**
 
 **Ответ**
+
 ```
 299
 ```
