@@ -24,7 +24,7 @@
 - [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) (рекомендуется) или любой другой редактор кода.
 
-### Установка
+## Установка
 
 1. Клонируйте репозиторий:
 
@@ -41,7 +41,7 @@
 dotnet restore
 ```
 
-### Запуск
+## Запуск
 
 1. Выполните команду для сборки:
 
